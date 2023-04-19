@@ -1,14 +1,14 @@
 /**
- * @name Kei Karuizawa
+ * @name keqing 
  * @author Nguyễn Vinh#1859
  * @version 1.0.0
  * @description Hiển thị hình ảnh bạn chọn với độ mờ và độ sáng có thể điều chỉnh.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
-@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/FrostedGlass.css');
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/windows-titlebar.css');
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/RadialStatus.css');
 
 :root {
   --background-image: url('https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif');
@@ -53,4 +53,4 @@
   --rs-phone-visible: block;
 }
 
-/* Any custom CSS below here */
+/* Bất kỳ CSS tùy chỉnh nào bên dưới đây */

@@ -1,0 +1,50 @@
+/**
+ * @name Code Chill 
+ * @author Nguyễn Vinh#1859
+ * @version 2.0.0
+ * @description Hiển thị hình ảnh bạn chọn với độ mờ và độ sáng có thể điều chỉnh. Chủ đề tối là bắt buộc
+*/
+
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/FrostedGlass.css');
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/windows-titlebar.css');
+@import url('https://vinhbot.github.io/BetterDiscord/Publish/RadialStatus.css');
+
+:root {
+  --background-image: url('https://cdn.discordapp.com/attachments/1092880160799326350/1092880297713991850/music.gif');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://cdn-img.thethao247.vn/origin_768x0/storage/files/haibui/2022/04/25/ngam-dan-nhan-vat-nu-cuc-ky-xinh-dep-trong-genshin-impact-130887.jpg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.22;
+  --left-brightness: 0.2;
+  --middle-brightness: 0.1;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.1;
+  --gradient-primary: 245,230,101;
+  --gradient-secondary: 67,227,222;
+  --link-colour: #FFFFFF;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2.5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #AB74E5;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+}
