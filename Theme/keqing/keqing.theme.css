@@ -1,0 +1,56 @@
+/**
+ * @name Kei Karuizawa
+ * @author Nguyễn Vinh#1859
+ * @version 1.0.0
+ * @description Hiển thị hình ảnh bạn chọn với độ mờ và độ sáng có thể điều chỉnh.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background-image: url('https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: 1;
+  --popout-modal-position: top center;
+  --home-button-image: url('https://i.imgur.com/gtHTnmy.gif');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.5;
+  --left-brightness: 0.5;
+  --middle-brightness: 0.5;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.5;
+  --gradient-primary: 255,235,130;
+  --gradient-secondary: 125,71,249;
+  --link-colour: #00B3FF;
+  --scrollbar-colour: rgb(255,221,156,0.32);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Comfortaa;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #14DB80;
+  --rs-idle-color: #FFA002;
+  --rs-dnd-color: #FF1414;
+  --rs-offline-color: #464C53;
+  --rs-streaming-color: #642EC0;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
