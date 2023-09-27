@@ -1,56 +1,61 @@
 /**
- * @name keqing 
- * @author Nguyễn Vinh#1859
- * @version 1.0.0
- * @description Hiển thị hình ảnh bạn chọn với độ mờ và độ sáng có thể điều chỉnh.
+ * @name Keqing genshin
+ * @author Nguyễn Vinh#cattt.c
+ * @version 2.0.0
+ * @description Hiển thị hình ảnh bạn chọn với độ mờ và độ sáng có thể điều chỉnh. Cần có chủ đề tối.
+ * @invite tSTY36dPWa
+ * @authorId 788208207465938954
+ * @source https://github.com/VinhBot/BetterDiscord/blob/main/Theme/codechill/codechill.theme.css
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
-@import url('https://vinhbot.github.io/BetterDiscord/Publish/FrostedGlass.css');
-@import url('https://vinhbot.github.io/BetterDiscord/Publish/windows-titlebar.css');
-@import url('https://vinhbot.github.io/BetterDiscord/Publish/RadialStatus.css');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
-  --background-image: url('https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif');
-  --background-image-blur: 0px;
-  --background-image-size: cover;
-  --background-image-position: center;
-  --popout-modal-image: transparent;
-  --popout-modal-blur: 0px;
-  --popout-modal-size: 1;
-  --popout-modal-position: top center;
-  --home-button-image: url('https://i.imgur.com/gtHTnmy.gif');
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 0.5;
-  --left-brightness: 0.5;
-  --middle-brightness: 0.5;
-  --right-brightness: 0;
-  --popout-modal-brightness: 0.5;
-  --gradient-primary: 255,235,130;
-  --gradient-secondary: 125,71,249;
-  --link-colour: #00B3FF;
-  --scrollbar-colour: rgb(255,221,156,0.32);
-  --gradient-direction: 320deg;
-  --tint-colour: 255,51,159;
-  --tint-brightness: 0;
+  /* Background image variables */
+  --background-image: url('https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+  --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
+  --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+  /* Popout & image variables */
+  --popout-image: url('https://gamelandvn.com/wp-content/uploads/anh/2020/11/keqing-thumbnail.jpg'); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --popout-image-blur: 0px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+  --popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+  --popout-image-position: 45%; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+  /* overlay & image variables */
+  --overlay-image: url('https://gamelandvn.com/wp-content/uploads/anh/2020/11/keqing-thumbnail.jpg');
+  --overlay-image-blur: 0px;
+  --overlay-image-size: 100%;
+  --overlay-image-position: cover;
+  /* Home image variables */
+  --home-button-image: url('https://64.media.tumblr.com/9f34c27732ad1468a1d1a147197cb968/399f649f5cc192a0-e2/s540x810/90df14a2a50b21d82075ca1f53ec9e0af414b4f7.gifv'); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --home-button-size: cover; /* Size of the home button image | DEFAUT: cover */
+  --home-button-position: center; /* Position of home button image | DEAFULT: center */
+  /* Brightness variables */
+  --serverlist-brightness: 0.6; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.6; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --overlay-brightness: 0.6;
+  /* Gradient variables */
+  --gradient-primary: 0,96,255; /* DEFAULT: 0,96,255 */
+  --gradient-secondary: 0,255,157; /* DEFAULT: 0,255,157 */
+  --gradient-direction: 75deg; /* DEFAULT: 75deg */
+  /* Tint variables */
+  --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
+  --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  /* Other variables */
+  --window-padding: 0px; /* Spacing around the Discord window | DEFAULT: 20px */
+  --window-roundness: 0px; /* Roundness of Discord | DEFAULT: 10px */
+  --scrollbar-colour: rgb(0,255,126,0.21); /* DEFAULT: rgb(0,255,126,0.21) */
+  --link-colour: #fcff53; /* DEFAULT: #00b0f4 */
+  /*
+    Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
   --font: Comfortaa;
-  --window-padding: 0px;
-  --window-roundness: 0px;
+  /* Do not touch */
   --update-notice-1: none;
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 0px;
-  --rs-small-width: 2.5px;
-  --rs-medium-width: 2.5px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #14DB80;
-  --rs-idle-color: #FFA002;
-  --rs-dnd-color: #FF1414;
-  --rs-offline-color: #464C53;
-  --rs-streaming-color: #642EC0;
-  --rs-phone-visible: block;
 }
-
-/* Bất kỳ CSS tùy chỉnh nào bên dưới đây */
