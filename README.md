@@ -9,6 +9,8 @@
   <img src="https://cdn.discordapp.com/attachments/1098248466599264266/1098249088794894366/image.png" alt="logo2">
 </center>
 
+![gif](https://cdn.discordapp.com/attachments/765620139126554644/826026547746963506/image0.gif)
+
 [Download theme ở đây](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/VinhBot/BetterDiscord/blob/main/Theme/keqing/keqing.theme.css)
 
 ## Code Chill
